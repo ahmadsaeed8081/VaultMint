@@ -1,4 +1,4 @@
-export const cont_add="0x2555b9Ce1114313b8C2719C8b99b0c2f01B7DF5e";
+export const cont_add="0x4d9E20BF44b92560B78F5BeCD4018c72E8BE9470";
 // export const cont_add="0xA170eD1D61e0ab415B740D5e8bC7D615E7b2A31E";
 
 
