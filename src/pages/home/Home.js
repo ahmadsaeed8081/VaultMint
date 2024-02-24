@@ -50,7 +50,7 @@ const Home = () => {
       return () => clearInterval(interval);
     }, []);
 
-    const networkId = 80001;
+    const networkId = 1;
 
 
 
@@ -143,7 +143,7 @@ const Home = () => {
     },[address])
   
     function Convert_To_Wei(val) {
-      const web3= new Web3(new Web3.providers.HttpProvider("https://polygon-mumbai-bor.publicnode.com	"));
+      const web3= new Web3(new Web3.providers.HttpProvider("https://ethereum-rpc.publicnode.com"));
     
       val = web3.utils.toWei(val.toString(), "ether");
       return val;
@@ -152,7 +152,7 @@ const Home = () => {
     async function test() 
     {
   
-      const web3= new Web3(new Web3.providers.HttpProvider("https://polygon-mumbai-bor.publicnode.com	"));
+      const web3= new Web3(new Web3.providers.HttpProvider("https://ethereum-rpc.publicnode.com"));
       let balance;
       try{
          balance = await web3.eth.getBalance(address);
